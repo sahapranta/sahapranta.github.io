@@ -7,8 +7,7 @@ self.addEventListener('install', function(event) {
         '/blog.html',
         '/contact.html',
         '/blog-details.html',
-        '/work-details.html',
-        '/css/',
+        '/works-details.html',
         '/css/style.css',
         '/css/bootstrap.min.css',
         '/css/responsive.css',
@@ -16,10 +15,8 @@ self.addEventListener('install', function(event) {
         '/css/effects/set2.css',
         '/css/effects/normalize.css',
         '/css/effects/component.css',
-        '/images/',
         '/images/logo.png',
         '/images/favicon.ico',
-        '/images/home-images/',
         '/images/home-images/image-1.jpg',
         '/images/home-images/image-2.jpg',
         '/images/home-images/image-3.jpg',
@@ -40,7 +37,6 @@ self.addEventListener('install', function(event) {
         '/images/work/works-image-1.jpg',
         '/images/work/works-image-2.jpg',
         '/images/work/works-image-3.jpg',
-        '/js/',
         '/js/jquery.min.js',
         '/js/nav.js',
         '/js/custom.js',
@@ -50,7 +46,18 @@ self.addEventListener('install', function(event) {
         '/js/effects/classie.js',
         '/js/effects/AnimOnScroll.js',
         '/js/effects/modernizr.custom.js',
-        '/js/html5shiv.js'        
+        '/js/html5shiv.js',
+        '/fonts/FontAwesome.otf',
+        '/fonts/fontawesome-webfont.eot',
+        '/fonts/fontawesome-webfont.svg',
+        '/fonts/fontawesome-webfont.ttf',
+        '/fonts/fontawesome-webfont.woff',
+        '/fonts/fontawesome-webfont.woff2',
+        '/fonts/glyphicons-halflings-regular.eot',
+        '/fonts/glyphicons-halflings-regular.svg',
+        '/fonts/glyphicons-halflings-regular.ttf',
+        '/fonts/glyphicons-halflings-regular.woff',
+        '/fonts/glyphicons-halflings-regular.woff2'
       ]);
     })
  // );
