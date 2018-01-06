@@ -3,7 +3,8 @@
   "short_name": "pranta",
   "lang": "en-US",
   "start_url": "/",
-  "display": "standalone",
+  "display": "fullscreen",
+  "background_color": "#FFFFFF",
   "orientation": "portrait-primary",
   "theme_color": "#000000",
   "icons": [
@@ -11,6 +12,52 @@
       "src": "/images/logo.png",
       "sizes": "66x41",
       "type": "image/png"
+    },
+     {
+      "src": "/images/logo/logo-36x36.jpg",
+      "sizes": "36x36",
+      "type": "image/jpg"
+    },
+         {
+      "src": "/images/logo/logo-60x60.jpg",
+      "sizes": "60x360",
+      "type": "image/jpg"
+    },
+         {
+      "src": "/images/logo/logo-72x72.jpg",
+      "sizes": "72x72",
+      "type": "image/jpg"
+    },
+         {
+      "src": "/images/logo/logo-144x144.jpg",
+      "sizes": "144x144",
+      "type": "image/jpg"
+    },
+         {
+      "src": "/images/logo/logo-216x216.jpg",
+      "sizes": "216x216",
+      "type": "image/jpg"
+    },
+         {
+      "src": "/images/logo/logo-360x360.jpg",
+      "sizes": "360x360",
+      "type": "image/jpg"
+    },
+      {
+      "src": "/images/logo/logo-432x432.jpg",
+      "sizes": "432x432",
+      "type": "image/jpg"
+    },
+      {
+      "src": "/images/logo/logo-504x504.jpg",
+      "sizes": "504x504",
+      "type": "image/jpg"
+    },
+      {
+      "src": "/images/logo/logo-720x720.jpg",
+      "sizes": "720x720",
+      "type": "image/jpg"
     }
+     
   ]
 }
