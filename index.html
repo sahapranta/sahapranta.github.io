@@ -640,12 +640,10 @@ if ('serviceWorker' in navigator) {
   });
 }
 	//alert message for add to homescreen
-	window.addEventListener('load', function() {
-      var outputElement = document.getElementById('output');
-		
+	
 	window.addEventListener('beforeinstallprompt', function(e) {
         outputElement.textContent = 'beforeinstallprompt Event fired';
-      }); });
+      }); 
 </script>
 
     </body>
