@@ -628,6 +628,8 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 <script>
+window.addEventListener('load', function() {
+      var outputElement = document.getElementById('output');
 	
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js')
@@ -640,10 +642,25 @@ if ('serviceWorker' in navigator) {
   });
 }
 	//alert message for add to homescreen
-	
-	window.addEventListener('beforeinstallprompt', function(e) {
+window.addEventListener('beforeinstallprompt', function(e) {
         outputElement.textContent = 'beforeinstallprompt Event fired';
-      }); 
+        
+        // e.userChoice will return a Promise.
+        e.userChoice.then(function(choiceResult) {
+          
+          console.log(choiceResult.outcome);
+          
+          if(choiceResult.outcome == 'dismissed') {
+            console.log('User cancelled homescreen install');
+          }
+          else {
+            console.log('User added to homescreen');
+          }
+        });
+        
+      });
+      
+    });
 </script>
 
     </body>
