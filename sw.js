@@ -33,9 +33,7 @@ self.addEventListener('install', function(event) {
         '/js/effects/classie.js',
         '/js/effects/AnimOnScroll.js',
         '/js/effects/modernizr.custom.js',
-        '/js/html5shiv.js',
-        'https://connect.facebook.net/en_US/sdk.js'
-        
+        '/js/html5shiv.js'        
       ]);
     })
   );
