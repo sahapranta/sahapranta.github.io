@@ -1,3 +1,6 @@
+CACHE MANIFEST
+#2018-01-07
+
 CACHE:
 images/favicon.ico
 index.html
@@ -61,3 +64,5 @@ images/work/works-image-3.jpg
 # Resources that require the user to be online.
 NETWORK:
 *
+FALLBACK:
+#STATIC.html
