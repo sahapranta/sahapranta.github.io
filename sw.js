@@ -39,7 +39,7 @@ self.addEventListener('install', function(event) {
         '/img/logo/60x60.png',
         '/img/logo/72x72.png',
         '/img/logo/144x144.png',
-        '/img/logo/216x216.png'
+        '/img/logo/216x216.png',
         '/img/logo/360x360.png',
         '/img/logo/432x432.png',
         '/img/logo/576x576.png',
