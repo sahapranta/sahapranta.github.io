@@ -1,60 +1,56 @@
 {
-  "name": "Pranta Saha Portfoilo",
-  "short_name": "pranta",
+  "name": "Pranta Saha",
+  "short_name": "Pranta",
   "lang": "en-US",
   "start_url": "/",
-  "display": "fullscreen",
-  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "background_color": "#fec608",
+  "description":"This is my personal portfolio or CV/Resume. This site is hosted on github page and maintained by personally.",
   "orientation": "portrait-primary",
-  "theme_color": "#000000",
+  "theme_color": "#fec608",
   "icons": [
-    {
-      "src": "/images/logo.png",
-      "sizes": "66x41",
-      "type": "image/png"
-    },
      {
-      "src": "/images/logo/logo-36x36.png",
+      "src": "/img/logo/36x36.png",
       "sizes": "36x36",
       "type": "image/png"
     },
          {
-      "src": "/images/logo/logo-60x60.png",
+      "src": "/img/logo/60x60.png",
       "sizes": "60x60",
       "type": "image/png"
     },
          {
-      "src": "/images/logo/logo-72x72.png",
+      "src": "/img/logo/72x72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
          {
-      "src": "/images/logo/logo-144x144.png",
+      "src": "/img/logo/144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
          {
-      "src": "/images/logo/logo-216x216.png",
+      "src": "/img/logo/216x216.png",
       "sizes": "216x216",
       "type": "image/png"
     },
          {
-      "src": "/images/logo/logo-360x360.png",
+      "src": "/img/logo/360x360.png",
       "sizes": "360x360",
       "type": "image/png"
     },
       {
-      "src": "/images/logo/logo-432x432.png",
+      "src": "/img/logo/432x432.png",
       "sizes": "432x432",
       "type": "image/png"
     },
       {
-      "src": "/images/logo/logo-576x576.png",
+      "src": "/img/logo/576x576.png",
       "sizes": "576x576",
       "type": "image/png"
     },
       {
-      "src": "/images/logo/logo-720x720.png",
+      "src": "/img/logo/720x720.png",
       "sizes": "720x720",
       "type": "image/png"
     }
