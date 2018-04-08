@@ -9,9 +9,9 @@ self.addEventListener('install', function(event) {
         '/css/font-awesome.min.css',
         '/css/style.css',
         '/css/responsive.css',
-        '/css/style.css.map'
+        '/css/style.css.map',
         '/js/bootstrap.min.js',
-        '/js/jquery-2.1.4.min.js'
+        '/js/jquery-2.1.4.min.js',
         '/js/theme.js',
         '/js/contact.js',
         '/js/gmaps.min.js',
@@ -33,7 +33,7 @@ self.addEventListener('install', function(event) {
         '/fonts/fontawesome-webfont.woff2',
         '/img/logo.png',
         '/img/footer-logo.png',
-        '/img/fav-icon.png'
+        '/img/fav-icon.png',
         '/img/Pattern_Light.png',
         '/img/logo/36x36.png',
         '/img/logo/60x60.png',
