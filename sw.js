@@ -22,7 +22,7 @@ self.addEventListener('install', function(event) {
         '/vendors/counter-up/jquery.counterup.min.js',
         '/vendors/counter-up/waypoints.min.js',
         '/vendors/isotope/imagesloaded.pkgd.min.js',
-        '/vendors/isotope.pkgd.min.js',
+        '/vendors/isotope/isotope.pkgd.min.js',
         '/vendors/owl-carousel/owl.carousel.min.js',
         '/vendors/owl-carousel/assets/owl.carousel.css',
         '/fonts/FontAwesome.otf',
