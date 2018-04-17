@@ -38,13 +38,8 @@
         <meta name="msapplication-starturl" content="/">
 
         <title>Pranta Saha - Resume / CV / </title>
-
-<script type='text/javascript'>
  
-function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("css/font-awesome.min.css");
- 
-</script><!-- 
-        <link href="css/font-awesome.min.css" rel="stylesheet"> -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         
         <link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
@@ -110,7 +105,7 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
                                     <button class="btn btn-danger btn-lg btn-toolbar video" data-video="https://www.youtube.com/embed/DR9-J49WAEA" data-toggle="modal" data-target="#videoModal"><i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i> Watch Me</button>
 
                                  </div>
-                                <a class="download_btn" href="#"><span>Download Resume</span></a>
+                                <a class="download_btn" href="https://www.slideshare.net/slideshow/embed_code/key/BEABSFUwhhCnuv" target="_blank"><span>Download Resume</span></a>
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -139,16 +134,16 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
                                     </ul>
                                 </div>
                                 <ul class="social_icon">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://facebook.com/pmdjps"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/04prantasaha"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://instagram.com/pranta.info"><i class="fa fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li><a href="https://linkedin.com/in/sahapranta"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://pinterest.com/sahapranta"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="https://www.behance.net/sahapranta"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="https://github.com/sahapranta"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://dribbble.com/sahapranta"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="https://www.freecodecamp.org/sahapranta"><i class="fa fa-free-code-camp"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -647,6 +642,17 @@ if ('serviceWorker' in navigator) {
   });
 }
       
+});
+//alert message for add to homescreen
+window.addEventListener('beforeinstallprompt', function(e) {
+    e.userChoice.then(function(choiceResult) {
+        if(choiceResult.outcome == 'dismissed') {
+            console.log('User cancelled homescreen install');
+        }
+        else {
+            console.log('User added to homescreen');
+        }
+    });
 });
 </script>
         
