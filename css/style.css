@@ -1,34 +1,3 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Email: rockybd1995@gmail.com
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Ramirez
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ profile
-05/ button
-06/ skill 
-07/ portfolio 
-08/ blog
-09/ footer 
-=====================================================================*/
-/*----------------------------------------------------*/
-
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:100,200,300,400,500,600,700,800,900|Yellowtail");
 .col-md-offset-right-1 {
   margin-right: 8.33333333%;
@@ -67,10 +36,6 @@ body.light_bg {
   background-size: contain;
 }
 
-body.dark_bg {
-  background: url(../img/Pattern_Drak.png) repeat scroll center center;
-  background-size: contain;
-}
 
 body .content_inner_bg {
   background: #efefef;
@@ -278,8 +243,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 /* End Header Menu Area css
 ============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
+
 /* About Person area css
 ============================================================================================ */
 .about_person_area {
@@ -315,7 +279,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.about_person_area .person_img:hover .middle {
+.about_person_area .person_img img:hover .middle {
   opacity: 1;
 }
 
