@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" manifest="pranta.appcache">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -637,7 +637,9 @@ Copyright &copy; Pranta Saha &nbsp; <script>document.write(new Date().getFullYea
 window.addEventListener('load', function() {
     
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js')
+  navigator.serviceWorker.register('sw.js', {
+        scope: '.' 
+    })
   .then(function(reg) {
     console.log('Registration succeeded.');
   }).catch(function(error) {
