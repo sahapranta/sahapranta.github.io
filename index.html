@@ -53,7 +53,7 @@
         <link href="vendors/animate-css/animate.css" rel="stylesheet">
         
         <link href="css/style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
+        <!-- <link href="css/responsive.css" rel="stylesheet"> -->
         
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -635,7 +635,21 @@ Copyright &copy; Pranta Saha &nbsp; <script>document.write(new Date().getFullYea
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/contact.js"></script>
         <script src="js/theme.js"></script>
-        <script>
+        <script type="text/javascript">
+            
+   WebFontConfig = {
+     google: {
+    families: ['Bree+Serif','Raleway:100,200,300,400,500,600,700,800,900','Yellowtail']
+  },
+}
+
+   (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+   })(document);
+
 window.addEventListener('load', function() {
     
 if ('serviceWorker' in navigator) {
