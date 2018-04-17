@@ -640,19 +640,20 @@ if ('serviceWorker' in navigator) {
   }).catch(function(error) {
     console.log('Registration failed with ' + error);
   });
-}
-      
-});
+}    
+
 //alert message for add to homescreen
-window.addEventListener('beforeinstallprompt', function(e) {
-    e.userChoice.then(function(choiceResult) {
-        if(choiceResult.outcome == 'dismissed') {
-            console.log('User cancelled homescreen install');
-        }
-        else {
-            console.log('User added to homescreen');
-        }
+    window.addEventListener('beforeinstallprompt', function(e) {
+        e.userChoice.then(function(choiceResult) {
+            if(choiceResult.outcome == 'dismissed') {
+                console.log('User cancelled homescreen install');
+            }
+            else {
+                console.log('User added to homescreen');
+            }
+        });
     });
+    
 });
 </script>
         
