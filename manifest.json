@@ -2,7 +2,7 @@
   "name": "Pranta Saha",
   "short_name": "Pranta",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#fec608",
   "description":"This is my personal portfolio or CV/Resume. This site is hosted on github page and maintained by personally.",
