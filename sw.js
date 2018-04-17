@@ -2,7 +2,7 @@ importScripts('serviceworker-cache-polyfill.js');
 
 self.addEventListener('install', function(event) {
 event.waitUntil(
-    caches.open('sahapranta').then(function(cache) {
+    caches.open('v1').then(function(cache) {
       return cache.addAll([
         '/index.html',
         '/css/bootstrap.min.css',
