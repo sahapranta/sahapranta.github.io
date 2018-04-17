@@ -39,11 +39,7 @@ event.waitUntil(
         '/img/logo/72x72.png',
         '/img/logo/128x128.png',
         '/img/logo/192x192.png',
-        '/img/logo/512x512.png',
-        '/img/logo/144x144.png',
-        '/img/logo/216x216.png',
-        '/img/logo/360x360.png',
-        'https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE'
+        '/img/logo/512x512.png'
       ]);
     })
  );
