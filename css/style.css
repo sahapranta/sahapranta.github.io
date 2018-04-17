@@ -279,7 +279,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.about_person_area .person_img img:hover .middle {
+.about_person_area img:hover .middle {
   opacity: 1;
 }
 
