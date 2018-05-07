@@ -171,13 +171,9 @@ $(function($) {
   
 
     
-});
 
 //contact.js
-$(document).ready(function(){
-    
-    (function($) {
-        "use strict";
+
 
     
     jQuery.validator.addMethod('answercheck', function (value, element) {
