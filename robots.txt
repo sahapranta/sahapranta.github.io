@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /sitemap.htm
+Allow: /sitemap.html
 Sitemap: https://sahapranta.github.io/sitemap.xml
