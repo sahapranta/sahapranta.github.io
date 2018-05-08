@@ -8,7 +8,6 @@ event.waitUntil(
         '/css/bootstrap.min.css',
         '/css/font-awesome.min.css',
         '/css/style.css',
-        '/css/responsive.css',
         '/css/style.css.map',
         '/js/bootstrap.min.js',
         '/js/jquery-2.1.4.min.js',
@@ -32,15 +31,5 @@ event.waitUntil(
 });
 
 self.addEventListener('fetch', function(event) {
-    // event.respondWith(
-    //     caches.match(event.request)
-    //         .then(function(response) {
-    //                 // Cache hit - return response
-    //                 if (response) {
-    //                     return response;
-    //                 }
-    //                 return fetch(event.request);
-    //             }
-    //         )
-    // );
+
 });
