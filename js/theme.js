@@ -1,10 +1,8 @@
 $(function($) {
     "use strict";
-  
-    /*----------------------------------------------------*/
-    /*  Menu scroll js
-    /*----------------------------------------------------*/
+    /*  Menu scroll js */
     var nav_offset_top = $('.header_area').offset().top;
+
     function stickyHeader() {
 		if ($('.header_area').length) {
 			var strickyScrollPos = nav_offset_top;
@@ -18,20 +16,14 @@ $(function($) {
 			}
 		}
 	}
-
-
-    
+   
     // instance of fuction while Window Scroll event
 	$(window).on('scroll', function () {	
 		stickyHeader();
        
 	});
 
-
-    
-    /*----------------------------------------------------*/
-    /*  Skill js
-    /*----------------------------------------------------*/
+    //  Skill js
     $(".skill_item_inner").each(function() {
         $(this).waypoint(function() {
             var progressBar = $(".progress-bar");
@@ -44,11 +36,7 @@ $(function($) {
 
         });
     });
-    
-    
-    /*----------------------------------------------------*/
-    /*  portfolio_isotope
-    /*----------------------------------------------------*/
+    //  portfolio_isotope
     function our_gallery(){
         if ( $('.portfolio_area').length ){
             // Activate isotope in container
@@ -77,10 +65,7 @@ $(function($) {
     }
     our_gallery();
 
-    
-    /*----------------------------------------------------*/
-    /*  Blog slider
-    /*----------------------------------------------------*/
+    //  Blog slider
     function blog_slider(){
         if ( $('.blog_slider_inner').length ){
             $('.blog_slider_inner').owlCarousel({
@@ -97,12 +82,7 @@ $(function($) {
     }
     blog_slider();
     
-    
-    
-    /*----------------------------------------------------*/
-    /*  Google map js
-    /*----------------------------------------------------*/
-    
+    //  Google map js   
     if ( $('#mapBox').length ){
         var $lat = $('#mapBox').data('lat');
         var $lon = $('#mapBox').data('lon');
@@ -122,9 +102,7 @@ $(function($) {
             });
         
         }
-    
-        
-   
+
        $('.header_area .nav.navbar-nav li').click(function(e) {
            e.preventDefault(); //prevent the link from being followed
            $('.header_area .nav.navbar-nav li').removeClass('active');
@@ -160,15 +138,7 @@ $(function($) {
       $(theModal + ' button.close').click(function () {
         $(theModal + ' iframe').attr('src', videoSRC);
       });
-    });
-
-    // preloader js
-    $(window).load(function() { // makes sure the whole site is loaded
-		$('#preloader_spinner').fadeOut(); // will first fade out the loading animation
-		$('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
-		$('body').delay(100).css({'overflow':'visible'})
-    });
-  
+    }); 
 
     
 });
