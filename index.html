@@ -5,10 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Pranta Saha  - Personal CV (Curriculum Vitae) | Portfolio</title>
+
         <meta name="copyright" content="Pranta Saha">
-        <meta name="description" content="This is my personal portfolio or CV/Resume. This site is hosted on github page and maintained by personally.">
-        <meta name="keywords" content="cv, sahapranta, portfolio, pranta saha, personal website">
+        <meta name="description" content="Hi, I am Pranta Saha a web programmer. This is my personal online portfolio or CV/Resume. This site is hosted on GitHub page and maintained by personally.">
+        <meta name="Robots" content="index, follow">
+        <meta name="keywords" content="cv, sahapranta, portfolio, pranta saha, personal website, resume">
         <meta name="author" content="Pranta Saha">
         <meta name="generator" content="github">
         <link href='https://sahapranta.github.io' rel='canonical'/>
@@ -29,6 +31,7 @@
         <meta content='@04prantasaha' name='twitter:creator'/>
         <link href='https://twitter.com/04prantasaha' rel='me'/>
         <meta content='Bangladesh' name='geo.placename'/>
+        
         <meta content='#fec608' name='theme-color'/>
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -43,22 +46,51 @@
         <link rel="icon" sizes="128x128" href="img/logo/128x128.png">
         <link rel="apple-touch-icon" sizes="128x128" href="img/logo/128x128.png">
         <link rel="apple-touch-icon-precomposed" sizes="128x128" href="img/logo/128x128.png">
-
-        <title>Pranta Saha - Resume / CV / </title>
- 
+             <!-- CSS files link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        
+        <link href="css/bootstrap.min.css" rel="stylesheet">   
         <link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
         <link href="vendors/animate-css/animate.css" rel="stylesheet">
-        
         <link href="css/style.css" rel="stylesheet">
-        <!-- <link href="css/responsive.css" rel="stylesheet"> -->
         
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Website",
+  "url":"https://sahapranta.github.io",
+  "name": "Pranta Saha",
+  "jobTitle": "Student",
+  "image": "https://sahapranta.github.io/img/logo.png",
+  "description":"Hi, I am Pranta Saha a web programmer. This is my personal online portfolio or CV/Resume. This site is hosted on GitHub page and maintained by personally.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dhaka",
+    "addressRegion": "Bangladesh"
+  },
+  "potentialAction":{
+    "@type": "SearchAction",
+    "target": "https://sahapranta.github.io/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "contactPoint": { 
+      "@type": "ContactPoint",
+      "telephone": "+8801924565272",
+      "email":"pranta1204@gmail.com",
+      "contactType": "Personal Service"
+    },
+  "sameAs": [
+    "https://www.facebook.com/pmdjps",
+    "https://instagram.com/pranta.info",
+    "https://www.linkedin.com/in/sahapranta",
+    "https://plus.google.com/+PrantaSaha4",
+    "https://twitter.com/04prantasaha"
+  ]
+}
+</script>
     </head>
     <body class="light_bg" data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="80" data-scroll-animation="true">
        
@@ -116,8 +148,8 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <div class="row person_details">
-                                <h3>Hi I'm <span>Pranta Saha</span></h3>
+                            <div class="row person_details" itemscope itemtype="http://schema.org/Person" >
+                                <h3>Hi I'm <span itemprop="name">Pranta Saha</span></h3>
                                 <h4>Web Designer and Web Developer</h4>
                                 <p>My name is Pranta Saha. I am &nbsp;<script>document.write(new Date().getFullYear()-1995);</script> years old. I am very simple person and always love simplicity in anywhere. Simplicity is my best weapon. I love photography, Creative Design, Web Development, Python etc. I am not from CS(Computer Science) background, but still I can manage it well from my self learning. I have completed my BBA from University of Dhaka major in Tourism and Hospitality Management. I am competely a non-smoker and dislike it also.</p>
                                 <div class="person_information">
@@ -131,13 +163,13 @@
                                         <li>Website</li>
                                     </ul>
                                     <ul>
-                                        <li><script>document.write(new Date().getFullYear()-1995);</script></li>
+                                        <li itemprop="age"><script>document.write(new Date().getFullYear()-1995);</script></li>
                                         <li>Bangladeshi</li>
                                         <li>Jagannath Hall, University of Dhaka</li>
-                                        <li>+8801515244967</li>
+                                        <li itemprop="phone">+8801515244967</li>
                                         <li><a href="#">pranta1204</a></li>
-                                        <li>pranta1204@gmail.com</li>
-                                        <li><a href="https://sahapranta.github.io">sahapranta.github.io</a></li>
+                                        <li itemprop="email">pranta1204@gmail.com</li>
+                                        <li itemprop="website"><a href="https://sahapranta.github.io">sahapranta.github.io</a></li>
                                     </ul>
                                 </div>
                                 <ul class="social_icon">
@@ -496,9 +528,9 @@
                                     <div class="media-left">
                                         <i class="fa fa-map-marker"></i>
                                     </div>
-                                    <div class="media-body">
+                                    <div class="media-body" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                         <h4>Address</h4>
-                                        <address>Jagannath Hall, University of Dhaka, Dhaka-1000</address>
+                                        <address itemprop="addressRegion" >Jagannath Hall, University of Dhaka, Dhaka-1000</address>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -585,7 +617,7 @@
                 <div class="container">
                     <div class="pull-left">
                         <h5><p>
-Copyright &copy; Pranta Saha &nbsp; <script>document.write(new Date().getFullYear());</script> All rights reserved.</p></h5>
+Copyright &copy; Pranta Saha&nbsp; <script>document.write(new Date().getFullYear());</script> All rights reserved.</p></h5>
                     </div>
                     <div class="pull-right">
                         <ul class="nav navbar-nav navbar-right">
@@ -616,7 +648,6 @@ Copyright &copy; Pranta Saha &nbsp; <script>document.write(new Date().getFullYea
           </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-2.1.4.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <!-- Extra plugin js -->
         <script src="vendors/counter-up/waypoints.min.js"></script>
@@ -625,11 +656,9 @@ Copyright &copy; Pranta Saha &nbsp; <script>document.write(new Date().getFullYea
         <script src="vendors/isotope/isotope.pkgd.min.js"></script>
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>     
         <script src="vendors/animate-css/wow.min.js"></script>
-
         <!--gmaps Js-->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
-        
+        <script src="js/gmaps.min.js"></script>      
         <!-- contact js -->
         <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
