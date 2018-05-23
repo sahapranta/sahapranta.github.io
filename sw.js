@@ -8,11 +8,9 @@ event.waitUntil(
         '/css/bootstrap.min.css',
         '/css/font-awesome.min.css',
         '/css/style.css',
-        '/css/style.css.map',
         '/js/bootstrap.min.js',
         '/js/jquery-2.1.4.min.js',
-        '/js/theme.js',
-        '/js/contact.js',
+        '/js/theme.min.js',
         '/js/gmaps.min.js',
         '/js/jquery.form.js',
         '/fonts/FontAwesome.otf',
@@ -23,8 +21,7 @@ event.waitUntil(
         '/img/logo/60x60.png',
         '/img/logo/72x72.png',
         '/img/logo/128x128.png',
-        '/img/logo/192x192.png',
-        '/img/logo/512x512.png'
+        '/img/logo/192x192.png'
       ]);
     })
  );
