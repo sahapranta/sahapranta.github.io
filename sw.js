@@ -36,11 +36,37 @@ event.waitUntil(
  );
 });
 
+// self.addEventListener('fetch', function(event) {
+//     console.log(event.request.url);
+//     event.respondWith(
+//         caches.match(event.request).then(function(response) {
+//             return response || fetch(event.request);
+//         })
+//     );
+// });
+
 self.addEventListener('fetch', function(event) {
-    console.log(event.request.url);
-    event.respondWith(
-        caches.match(event.request).then(function(response) {
-            return response || fetch(event.request);
-        })
+    if (/\.jpg$|.png$/.test(event.request.url)) {
+      var supportsWebp = false;
+      if (event.request.headers.has('accept')){
+          supportsWebp = event.request.headers
+                                      .get('accept')
+                                      .includes('webp');
+      }
+        if (supportsWebp){
+           var req = event.request.clone();
+           var returnUrl = req.url.substr(0, req.url.lastIndexOf(".")) + ".webp";
+           event.respondWith(
+                fetch(returnUrl, {
+                  mode: 'no-cors'
+                })
+          );
+      }
+    }else{
+        event.respondWith(
+            caches.match(event.request).then(function(response) {
+                return response || fetch(event.request);
+            })
     );
+    }
 });
