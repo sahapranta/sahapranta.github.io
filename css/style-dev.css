@@ -25,7 +25,6 @@ body {
   line-height: 24px;
   font-size: 13px;
   color: #333333;
-  font-family: "Raleway", sans-serif;
 }
 
 body.light_bg {
@@ -68,7 +67,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .main_title h2 {
   font-size: 36px;
-  font-family: "Bree Serif", serif;
   color: #222222;
   text-transform: uppercase;
   text-align: center;
@@ -80,7 +78,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 /* End Main title css
 ============================================================================================ */
-/*#preloader {
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -175,7 +173,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
-*/
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Header Menu Area css
@@ -210,7 +208,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 0px;
   background: transparent;
   line-height: 80px;
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: #222222;
@@ -292,7 +289,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 36px;
   color: #333333;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   padding-bottom: 10px;
 }
@@ -303,7 +299,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .about_person_area .person_details h4 {
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #666666;
   padding-bottom: 15px;
@@ -313,7 +308,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   line-height: 24px;
   color: #333333;
-  font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
 
@@ -329,7 +323,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   line-height: 26px;
   color: #333333;
-  font-family: "Raleway", sans-serif;
 }
 
 .about_person_area .person_details .person_information ul + ul {
@@ -340,7 +333,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   line-height: 26px;
   color: #666666;
-  font-family: "Raleway", sans-serif;
 }
 
 .social_icon li {
@@ -456,7 +448,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   color: #222222;
   font-size: 18px;
-  font-family: "Yellowtail", cursive;
   position: relative;
   overflow: hidden;
 }
@@ -500,7 +491,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   display: block;
   line-height: 40px;
   color: #fff;
-  font-family: "Raleway", sans-serif;
   box-shadow: none !important;
   outline: none !important;
   border: none;
@@ -532,7 +522,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
   top: -100%;
   left: 0px;
-  font-family: FontAwesome;
   transition: all 200ms ease-in;
 }
 
@@ -565,7 +554,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .myskill_area .skill_text h4 {
-  font-family: "Raleway", sans-serif;
   color: #333333;
   font-size: 24px;
   text-transform: uppercase;
@@ -576,14 +564,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .myskill_area .skill_text p {
   font-size: 13px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
   color: #333333;
 }
 
 .myskill_area .skill_item_inner .single_skill h4 {
   font-size: 16px;
   color: #333333;
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 5px;
@@ -605,7 +591,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .myskill_area .skill_item_inner .single_skill .progress .progress-bar .progress_parcent {
-  font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: #fff;
   line-height: 30px;
@@ -662,7 +647,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #fff;
   line-height: 43px;
-  font-family: "Raleway", sans-serif;
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
@@ -707,13 +691,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .education_area .education_inner_area .education_item h6 {
   font-size: 14px;
   color: #fec608;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
 .education_area .education_inner_area .education_item h4 {
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
   color: #333333;
   padding: 8px 0px 7px 0px;
 }
@@ -721,13 +703,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .education_area .education_inner_area .education_item h5 {
   font-size: 14px;
   color: #333333;
-  font-family: "Raleway", sans-serif;
 }
 
 .education_area .education_inner_area .education_item p {
   font-size: 13px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
   color: #666666;
   font-weight: 400;
   padding-top: 12px;
@@ -761,7 +741,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .service_area .service_inner .service_item h4 {
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #222222;
   padding: 25px 0px 15px 0px;
@@ -769,7 +748,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .service_area .service_inner .service_item p {
   font-size: 13px;
-  font-family: "Raleway", sans-serif;
   line-height: 24px;
   color: #333333;
 }
@@ -805,7 +783,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .portfolio_area .porfolio_menu .causes_filter li a {
   font-size: 18px;
   color: #222222;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 36px;
@@ -890,7 +867,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_title h4 {
   font-size: 16px;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #333333;
   text-transform: uppercase;
@@ -899,7 +875,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .portfolio_area .portfolio_list_inner .portfolio_item .portfolio_title h5 {
   font-size: 14px;
-  font-family: "Raleway", sans-serif;
   color: #666666;
   padding-bottom: 18px;
 }
@@ -942,7 +917,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   color: #666666;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
   margin-bottom: 15px;
   font-weight: 400;
 }
@@ -951,7 +925,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #fec608;
   font-size: 14px;
   line-height: 24px;
-  font-family: "Raleway", sans-serif;
 }
 
 .twitter_area ul li:last-child {
@@ -965,7 +938,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .w_title h3 {
   font-size: 18px;
   color: #333333;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -1031,13 +1003,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   color: #333333;
   font-weight: bold;
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   padding: 25px 0px 10px 0px;
 }
 
 .blog_slider_area .blog_slider_inner .item p {
-  font-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #666666;
@@ -1049,7 +1019,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .blog_slider_area .blog_slider_inner .item h5 {
-  font-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #666666;
@@ -1133,7 +1102,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .left_contact_details .media .media-body h4 {
   font-size: 14px;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #333333;
@@ -1167,31 +1135,26 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 50px;
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group input.placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group input:-moz-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group input::-moz-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group input::-webkit-input-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group input:focus {
@@ -1210,31 +1173,26 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   color: #999999;
   resize: none;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group textarea.placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group textarea:-moz-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group textarea::-moz-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group textarea::-webkit-input-placeholder {
   font-size: 14px;
   color: #999999;
-  font-family: "Raleway", sans-serif;
 }
 
 .contact_from_area .form-group textarea:focus {
@@ -1313,7 +1271,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .footer_copyright .pull-left h5 {
   font-size: 13px;
   color: #fff;
-  font-family: "Raleway", sans-serif;
   line-height: 100px;
 }
 
@@ -1331,7 +1288,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   background: transparent;
   line-height: 100px;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #fff;
   transition: all 400ms linear 0s;
