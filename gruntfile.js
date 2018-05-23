@@ -1,6 +1,6 @@
 module.exports=function(grunt){
 	grunt.initConfig({
-		pkg:grunt.file.readJSON('package.json'),
+		pkg:grunt.file.readJSON('package.json')
 
 	// 	cssmin:{
 	// 		my_target:{
@@ -13,7 +13,8 @@ module.exports=function(grunt){
 	// 			}]
 	// 		}
 	// 	}
-	// });
+
+	 });
 
 	// grunt.loadNpmTasks('grunt-contrib-cssmin');
 }
