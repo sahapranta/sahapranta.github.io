@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/sahapranta/sahapranta.github.io/issues"
   },
-  "homepage": "https://github.com/sahapranta/sahapranta.github.io#readme"
+  "homepage": "https://github.com/sahapranta/sahapranta.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0"
+  }
 }
