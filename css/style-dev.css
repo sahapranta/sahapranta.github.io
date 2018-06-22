@@ -254,6 +254,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .about_person_area .person_img img:hover{
   opacity: 0.5;
 }
+.about_person_area .person_img img:hover .middle{
+  opacity: 1;
+}
 
 .about_person_area .person_img img {
   max-width: 100%;
@@ -1523,8 +1526,3 @@ body, p, h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* End Footer area css
-============================================================================================ */
-/*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
