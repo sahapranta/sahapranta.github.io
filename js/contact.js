@@ -1,4 +1,25 @@
 $(document).ready(function(){
+    var localStorageAPI = {
+       isSupported: function() {
+            return window.localStorage;
+        },
+
+        setObject: function(key, object) {
+            return localStorage.setItem(key, JSON.stringify(object));
+        },
+
+        getObject: function(key) {
+            return JSON.parse(localStorage.getItem(key));
+        },
+
+        removeItem: function(key) {
+            return localStorage.removeItem(key);
+        },
+
+        clearAll: function() {
+            return localStorage.clear();
+        }
+    };
     
     (function($) {
         "use strict";  
