@@ -20,7 +20,28 @@ $(document).ready(function(){
             return localStorage.clear();
         }
     };
-    
+ 
+if (localStorageAPI.isSupported()) {
+        var key = 'longForm';
+        $('.form-control').on('blur', function() {
+            var formObj = {};
+            $('form').serializeArray().map(function(x) {
+                formObj[x.name] = x.value;
+            });
+        localStorageAPI.setObject(key, formObj);
+        });
+       // populate existing form data
+        var fData = localStorageAPI.getObject(key);
+        if (fData) {
+            $.each(fData, function(formEle, formEleVal) {
+                $('[name=' + formEle + ']').val(formEleVal);
+            });
+ 
+ }}else {
+     alert('No Local Storage Support!');
+ }
+
+
     (function($) {
         "use strict";  
     jQuery.validator.addMethod('answercheck', function (value, element) {
@@ -69,8 +90,9 @@ $(document).ready(function(){
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
-                    url:"contact_process.php",
+                    url:"/",
                     success: function() {
+                        localStorageAPI.removeItem(key);
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 0.15, function() {
                             $(this).find(':input').attr('disabled', 'disabled');

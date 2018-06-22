@@ -50,7 +50,7 @@
         <link href="img/logo/128x128.png" rel="apple-touch-icon-precomposed" sizes="128x128">
 
              
-        <script type="text/javascript">function loadCSS(e,t,n){"use strict";var o=window.document.createElement("link"),s=t||window.document.getElementsByTagName("script")[0];o.rel="stylesheet",o.href=e,o.media="only x",s.parentNode.insertBefore(o,s),setTimeout(function(){o.media=n||"all"})}loadCSS("/css/font-awesome.min.css")</script>
+        <script type="text/javascript">function loadCSS(e,t,n){"use strict";var o=window.document.createElement("link"),s=t||window.document.getElementsByTagName("script")[0];o.rel="stylesheet",o.href=e,o.media="only x",s.parentNode.insertBefore(o,s),setTimeout(function(){o.media=n||"all"})}loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")</script>
 
         <link href="css/bootstrap.min.css" rel="stylesheet">   
         <link href="css/style.min.css" rel="stylesheet">
@@ -85,11 +85,11 @@
     </head>
     <body class="light_bg" data-offset="80" data-scroll-animation="true" data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
 
-        <div id="preloader">
+        <!-- <div id="preloader">
             <div id="preloader_spinner">
                 <div class="spinner"></div>
             </div>
-        </div>
+        </div> -->
               
         
         <header class="header_area">
@@ -550,7 +550,7 @@
                                     <h3>Send Message</h3>
                                 </div>
                                 <div class="row">
-                                    <form action="contact_process.php" id="contactForm" method="post">
+                                    <form id="contactForm" method="post" name="longForm">
                                         <div class="col-md-12 form-group">
                                             <input class="form-control" id="name" name="name" placeholder="Your Name*" type="text" autocomplete="name">
                                         </div>

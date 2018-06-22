@@ -7,7 +7,7 @@ module.exports=function(grunt){
 	    	},
 	    	my_target:{
 	    		files:{
-	    			'js/theme.min.js':['js/gmap.min.js','js/jquery.form.js', 'jquery.validate.min.js' ,'js/theme.js', 'js/contact.js']
+	    			'js/theme.min.js':['js/gmaps.min.js','js/jquery.form.js', 'jquery.validate.min.js' ,'js/theme.js', 'js/contact.js']
 	    		}
 	    	}
 	    },

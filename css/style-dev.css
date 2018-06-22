@@ -28,7 +28,7 @@ body {
 }
 
 body.light_bg {
-  background: url(../img/Pattern_Light.png) repeat scroll center center;
+  background-color:rgba(170, 170, 170, 0.8);
   background-size: contain;
 }
 
@@ -1263,7 +1263,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_inner ul li:last-child a {
-  background: #faaa5e;
+  background: #ff2222;
   color: #fff;
 }
 
