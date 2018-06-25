@@ -9,24 +9,19 @@ event.waitUntil(
         '/index.html?homescreen=1',
         '/?homescreen=1',
         '/css/bootstrap.min.css',
-        '/css/font-awesome.min.css',
         '/css/style.min.css',
         '/js/bootstrap.min.js',
         '/js/jquery-2.1.4.min.js',
         '/js/theme.min.js',
-        '/js/jquery.validate.min.js',
         '/vendors/animate-css/wow.min.js',
         '/vendors/counter-up/jquery.counterup.min.js',
         '/vendors/counter-up/waypoints.min.js',
         '/vendors/isotope/imagesloaded.pkgd.min.js',
         '/vendors/isotope/isotope.pkgd.min.js',
-        '/js/gmaps.min.js',
-        '/js/jquery.form.js',
-        '/fonts/FontAwesome.otf',
+        '/vendors/owl-carousel/owl.carousel.min.js',
         '/img/logo.png',
         '/img/footer-logo.png',
         '/img/fav-icon.png',
-        '/img/Pattern_Light.png',
         '/img/logo/60x60.png',
         '/img/logo/72x72.png',
         '/img/logo/128x128.png',
@@ -37,7 +32,7 @@ event.waitUntil(
 });
 
 self.addEventListener('fetch', function(event) {
-    console.log(event.request.url);
+    // console.log(event.request.url);
     event.respondWith(
         caches.match(event.request).then(function(response) {
             return response || fetch(event.request);
