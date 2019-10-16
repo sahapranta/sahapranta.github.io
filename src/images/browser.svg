@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="370" width="540">
+  <defs>
+    <path id="path-1" opacity="1" fill-rule="evenodd" d="M0,0 L540,0 L540,370 L0,370 "/>
+    <path id="path-2" opacity="1" fill-rule="evenodd" d="M0,36.571 L540,36.571 L540,370 L0,370 "/>
+    <linearGradient id="linearGradient-3" x1="0" y1="0" x2="1" y2="100">
+      <stop offset="0" stop-color="rgb(239,239,239)" stop-opacity="1"/>
+      <stop offset="1" stop-color="rgb(255,255,255)" stop-opacity="1"/>
+    </linearGradient>
+    <ellipse id="ellipse-4" opacity="1" rx="9" ry="9" cx="17" cy="17"/>
+    <ellipse id="ellipse-5" opacity="1" rx="9" ry="9" cx="41" cy="17"/>
+    <ellipse id="ellipse-6" opacity="1" rx="9" ry="9" cx="66" cy="17"/>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <use xlink:href="#path-1" fill="rgb(255,255,255)" fill-opacity="1"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#path-2" fill="url(#linearGradient-3)"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-4" fill="rgb(254,54,54)" fill-opacity="1"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-5" fill="rgb(42,201,64)" fill-opacity="1"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#ellipse-6" fill="rgb(250,153,23)" fill-opacity="1"/>
+    </g>
+  </g>
+</svg>
