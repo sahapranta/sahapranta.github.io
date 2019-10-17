@@ -13,8 +13,8 @@
             "tech": "Sveltejs, ES6",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis libero, magni sit quam debitis doloribus recusandae, iste earum dicta numquam rerum.",
             "url": "https://google.com",
-            "img": "project-2.png",
-            "source": "https://github.com/sahapranta/socialblood"
+            "img": "svelte_todo.png",
+            "source": "https://github.com/sahapranta/Svelte_Todo"
         },
         {
             "name": "Todo App",
