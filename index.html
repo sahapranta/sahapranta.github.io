@@ -10,8 +10,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet" />
 	<link rel="stylesheet" href="dist/css/style.css" />
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body class="is-boxed has-animations">
@@ -53,25 +53,14 @@
 								alt="Hero media" width="50%" />
 							<img class="hero-media-image asset-light" src="dist/images/hero-media-dark.svg"
 								alt="Hero media" width="50%" />
-							<!-- <div class="hero-media-illustration">
-									<img
-										class="hero-media-illustration-image asset-light"
-										src="dist/images/hero-media-illustration-light.svg"
-										alt="Hero media illustration"
-									/>
-									<img
-										class="hero-media-illustration-image asset-dark"
-										src="dist/images/hero-media-illustration-dark.svg"
-										alt="Hero media illustration"
-									/>
-								</div> -->
+							
 						</div>
 						<div class="hero-media">
 							<div class="header-illustration">
 								<img class="header-illustration-image asset-light"
 									src="dist/images/header-illustration-light.svg" alt="Header illustration" />
 								<img class="header-illustration-image asset-dark"
-									src="dist/images/header-illustration-dark.svg" alt="Header illustration" />
+									src="dist/images/header-illustration-dark.svg" alt="Header illustration" />							
 							</div>
 
 							<div class="hero-media-container">
@@ -115,8 +104,9 @@
 									Last Project
 								</h2>
 								<p class="section-paragraph">
-									The Project is made using {{last.tech}}. <a :href="last.url">View Live</a>
+									The Project is made using {{last.tech}}.
 								</p>
+								<a class="button button-shadow button-sm" target="_blank" :href="last.url">See Live</a> & <a class="button button-shadow button-sm" target="_blank" :href="last.source">Source Code</a>
 								<div class="features-image">
 									<img class="features-illustration asset-dark"
 										src="dist/images/features-illustration-dark.svg" alt="Feature illustration" />
@@ -141,24 +131,22 @@
 						</div>
 						<div class="features-wrap">
 							<h2 class="section-title mt-0">More...</h2>
-							<div class="feature is-revealing" v-for="project in projects">
+							<div class="feature" v-for="project in filteredProject">
 								<div class="feature-inner">
 									<div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-01-light.svg"
+										<!-- <img class="asset-light" src="dist/images/feature-01-light.svg"
 											alt="Feature 01" />
 										<img class="asset-dark" src="dist/images/feature-01-dark.svg"
-											alt="Feature 01" />
+											alt="Feature 01" /> -->
+										<img class="" :src="'dist/images/' + project.img"
+											alt="Feature 01" height="100"/>
 									</div>
 									<div class="feature-content">
 										<h3 class="feature-title mt-0">
-											Discover
+											{{project.name}}
 										</h3>
-										<p class="text-sm mb-0">
-											Lorem ipsum dolor sit amet,
-											consecte adipiscing elit, sed do
-											eiusmod tempor incididunt ut
-											labore et dolore magna aliqua
-											dui.
+										<p class="max-line text-sm mb-0">
+											{{project.description}}
 										</p>
 									</div>
 								</div>
@@ -184,29 +172,8 @@
 										</p>
 									</div>
 								</div>
-							</div>
-							<div class="feature is-revealing">
-								<div class="feature-inner">
-									<div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-03-light.svg"
-											alt="Feature 03" />
-										<img class="asset-dark" src="dist/images/feature-03-dark.svg"
-											alt="Feature 03" />
-									</div>
-									<div class="feature-content">
-										<h3 class="feature-title mt-0">
-											Discover
-										</h3>
-										<p class="text-sm mb-0">
-											Lorem ipsum dolor sit amet,
-											consecte adipiscing elit, sed do
-											eiusmod tempor incididunt ut
-											labore et dolore magna aliqua
-											dui.
-										</p>
-									</div>
-								</div>
-							</div> -->
+							</div> -->							
+							<span v-if="notice">{{notice}}</span>
 							<div style="display: flex; justify-content:flex-end;">
 								<a class="button ripple" v-on:click="loadMore">Load...</a>
 							</div>
