@@ -11,15 +11,15 @@
         {
             "name": "Todo App",
             "tech": "Sveltejs, ES6",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis libero, magni sit quam debitis doloribus recusandae, iste earum dicta numquam rerum.",
-            "url": "https://google.com",
+            "description": "Svelte is a new fronted javascript framework. Here is a basic TODO application using Sveltejs and its default store management.",
+            "url": "https://sahapranta.github.io/Svelte_Todo",
             "img": "svelte_todo.png",
             "source": "https://github.com/sahapranta/Svelte_Todo"
         },
         {
-            "name": "Todo App",
-            "tech": "Sveltejs, ES6",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis libero, magni sit quam debitis doloribus recusandae, iste earum dicta numquam rerum.",
+            "name": "Bangla Dummy Text",
+            "tech": "Reactjs",
+            "description": "This is a simple bangla text generator based on reactjs and css. Texts are used from Banglapedia. This project is very simple using reactjs and hooks for managing state. ",
             "url": "https://google.com",
             "img": "bn_text.png",
             "source": "https://github.com/sahapranta/socialblood"
