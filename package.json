@@ -1,15 +1,15 @@
 {
-  "name": "switch",
+  "name": "sahapranta",
   "version": "1.0.0",
-  "description": "Switch Template",
-  "author": "Pasquale Vitiello <pasqualevitiello@gmail.com>",
-  "license": "GPLv3",
+  "description": "sahapranta Template",
+  "author": "Pranta Saha <pranta1204@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/pasqualevitiello/switch.git"
+    "url": "https://github.com/sahapranta/sahapranta.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/pasqualevitiello/switch/issues"
+    "url": "https://github.com/sahapranta/sahapranta/issues"
   },
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
@@ -49,7 +49,7 @@
     "stylelint": "^9.4.0",
     "uglify-es": "^3.3.10"
   },
-  "homepage": "https://bitbucket.org/pasqualevitiello/switch#readme",
+  "homepage": "https://sahapranta.github.io",
   "main": ".eslintrc.js",
   "dependencies": {}
 }
