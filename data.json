@@ -51,7 +51,7 @@
             "description": "The website was created for managing incentive of remitance payment. Mainly the work was done under an employee of Agrani Bank Limited but due to security and permission issue the site is not published.",
             "url": "http://harekrishnasamacar.com/remitance/",
             "img": "remitance.png",
-            "images":[],
+            "images":["remitance2.png"],
             "source": "https://github.com/sahapranta/remitance"
         }
     ]
