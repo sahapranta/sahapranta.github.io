@@ -35,6 +35,24 @@
             "img": "bn_text.png",
             "images":[],
             "source": "https://github.com/sahapranta/bangla_dummy_text"
+        },
+      {
+            "name": "Odhikar Community Site",
+            "tech": "HTML",
+            "description": "This site is created for BITM exam purpose. Technology was simply used to serve the purpose. HTML, Javascript & CSS was required as frontend exam.",
+            "url": "https://odhikar.netlify.app",
+            "img": "odhikar.png",
+            "images":[],
+            "source": "https://github.com/sahapranta/bitm_xm"
+        },
+      {
+            "name": "Incentive Solution for Remitance",
+            "tech": "Laravel & Vuejs",
+            "description": "The website was created for managing incentive of remitance payment. Mainly the work was done under an employee of Agrani Bank Limited but due to security and permission issue the site is not published.",
+            "url": "http://harekrishnasamacar.com/remitance/",
+            "img": "remitance.png",
+            "images":[],
+            "source": "https://github.com/sahapranta/remitance"
         }
     ]
 }
