@@ -1,5 +1,15 @@
 {
     "projects": [
+      
+        {
+            "name": "Social Media Dashboard",
+            "tech": "React.js & SASS",
+            "description": "This is a frontend challenge from frontendmentor.io. They give the mockup file and learner has to complete the code in own way.",
+            "url": "https://social-media-dashboard.sahapranta.now.sh/",
+            "img": "social-media-dashboard.jpg",
+            "images":[],
+            "source": "https://github.com/sahapranta/social_media_dashboard"
+        },
         {
             "name": "Social Blood",
             "tech": "LARAVEL & VUEJS",
