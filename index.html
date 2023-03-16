@@ -37,12 +37,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="shortcut icon" href="dist/images/logo-light.svg" type="image/x-icon">
 	<title>Pranta Saha | Portfolio</title>
-	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://unpkg.com" />
+
+	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600"  />
 	<link rel="stylesheet" href="dist/css/style.css" />
-	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
 </head>
 
 <body class="is-boxed has-animations">
@@ -268,7 +268,11 @@
 			</div>
 		</footer>
 	</div>
-	<script src="dist/js/main.min.js"></script>
+	<script defer async src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	<script defer async src="https://unpkg.com/vue@3.2.47/dist/vue.global.prod.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+	<script defer async src="https://unpkg.com/vue-router@4.1.6/dist/vue-router.global.prod.js"></script>
+	<script defer async src="dist/js/main.min.js"></script>
 </body>
 
 </html>
