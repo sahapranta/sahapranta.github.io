@@ -1,31 +1,35 @@
-# Pranta Saha
+# vite-project
 
-A Personal Portfolio.
+This template should help get you started developing with Vue 3 in Vite.
 
-## Getting started
+## Recommended IDE Setup
 
--   Run `npm install` to install all of the dependencies.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
+## Customize configuration
 
-### Task List
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-| Tasks        | Why?                                                                                                           |
-| ------------ | -------------------------------------------------------------------------------------------------------------- |
-| claen        | will clean all css, js & images from dist                                                                      |
-| autoprefixer | autoprefixer postcss -u autoprefixer -r dist/css/\*                                                            |
-| scss         | node-sass --output-style compressed -o dist/css src/scss                                                       |
-| lint         | eslint src/js \| \| true                                                                                       |
-| lint-scss    | stylelint src/scss/\*.scss --syntax scss \|\| true                                                             |
-| uglify       | mkdirp dist/js -p && uglifyjs src/js/\*.js -m -c -o dist/js/main.min.js                                        |
-| imagemin     | imagemin src/images/\* -o dist/images                                                                          |
-| serve        | browser-sync start --server --files \"dist/css/_.css, dist/js/_.js, \*_/_.html, \!node\*modules/\*\*/\_.html\" |
-| build:css    | run-s lint-scss scss autoprefixer                                                                              |
-| build:js     | run-s lint uglify                                                                                              |
-| build:images | run-s imagemin                                                                                                 |
-| build        | run-s build:\_                                                                                                 |
-| watch:css    | onchange \src/scss\ -- run-s build:css                                                                         |
-| watch:js     | onchange \src/js\ -- run-s build:js                                                                            |
-| watch:images | onchange \src/images\ -- run-s build:images                                                                    |
-| watch        | run-p serve watch:\_                                                                                           |
-| postinstall  | run-s build watc                                                                                               |
+## Project Setup
+
+```sh
+yarn
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+yarn dev
+```
+
+### Compile and Minify for Production
+
+```sh
+yarn build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+yarn test:unit
+```
