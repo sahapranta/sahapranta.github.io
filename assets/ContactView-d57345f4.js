@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as e,b as o}from"./index-97901fdc.js";const s={},n={class:"contact"},a=o("h1",null,"This is an contact page",-1),_=[a];function r(i,d){return c(),e("div",n,_)}const f=t(s,[["render",r]]);export{f as default};
